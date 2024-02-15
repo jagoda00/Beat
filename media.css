@@ -235,8 +235,9 @@
   .sub-header {
     height: 100vh;
     background-image: url(img/homepage\ phone.png);
-    background-position: center;
+    background-position: center center;
     background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -305,6 +306,7 @@
     height: 170px;
     border-radius: 60px;
     margin-top: 10px;
+    width: 100%;
   }
   .pulse-video p {
     font-size: 17px;
