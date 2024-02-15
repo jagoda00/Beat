@@ -232,6 +232,14 @@
 }
 
 @media all and (max-width: 480px) {
+  .sub-header {
+    height: 100vh;
+    background-image: url(img/homepage\ phone.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   .product {
     max-width: 100%;
     overflow: hidden;
