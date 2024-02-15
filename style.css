@@ -215,7 +215,7 @@
   color: white;
 }
 .pulse-video video {
-  border-radius: 100px;
+  border-radius: 0;
   width: 1000px;
 }
 .card {

@@ -237,9 +237,7 @@
     background-image: url(img/homepage\ phone.png);
     background-position: center center;
     background-size: 100%;
-    background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
   }
   .product {
     max-width: 100%;
@@ -264,7 +262,6 @@
   .running img {
     width: 100%;
     scale: 3.2;
-    margin-top: 220px;
   }
   .pulse {
     height: 200vh;
@@ -306,11 +303,14 @@
     height: 170px;
     border-radius: 60px;
     margin-top: 10px;
-    width: 100%;
   }
   .pulse-video p {
     font-size: 17px;
     margin-bottom: 90px;
+  }
+  .pulse-video video {
+    border-radius: 0;
+    width: 100%;
   }
   .pulse-video h2 {
     font-size: 35px;
@@ -322,7 +322,7 @@
     margin-bottom: 50px;
   }
   .specification {
-    height: 240vh;
+    height: 180vh;
   }
   .specification img {
     width: 50%;
